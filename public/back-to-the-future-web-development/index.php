@@ -9,10 +9,6 @@ $meta = require __DIR__ . '/meta.php';
 
 <head>
     <?php
-    $ROOT = '../';
-    $KEYWORDS = "HTML, CSS, PHP";
-    $TITLE = $meta['title'];
-    $DESC = $meta['description'];
     require PROJECT_ROOT . '/includes/head.php';
     ?>
 </head>

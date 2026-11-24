@@ -1,5 +1,9 @@
 <?php
 require_once dirname(__DIR__) . '/bootstrap.php';
+$meta = [
+    'title' => "Lee Howard's Website",
+    'description' => "Lee Howard's personal network of development and other cool things."
+];
 ?>
 
 <!DOCTYPE html>
@@ -7,10 +11,6 @@ require_once dirname(__DIR__) . '/bootstrap.php';
 
 <head>
     <?php
-    $ROOT = './';
-    $KEYWORDS = "Software Engineering, Development";
-    $DESC = "Lee Howard's personal network of development and other cool things.";
-    $TITLE = "Lee Howard's Website";
     require PROJECT_ROOT . '/includes/head.php';
     ?>
 </head>

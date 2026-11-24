@@ -8,11 +8,7 @@ $meta = require __DIR__ . '/meta.php';
 <html lang="en">
 
 <head>
-    <?php
-    $ROOT = '../';  // DO NOT CHANGE $ROOT
-    $KEYWORDS = ""; // article keywords
-    $TITLE = $meta['title']; // article title
-    $DESC = $meta['description'];     // article description    
+    <?php   
     require PROJECT_ROOT . '/includes/head.php';
     ?>
 </head>

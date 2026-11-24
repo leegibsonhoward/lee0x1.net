@@ -1,5 +1,5 @@
 <header>
-    <h1><a id="site-title" href="<?php echo $ROOT ?>">Lee Howard</a></h1>
+    <h1><a id="site-title" href="/">Lee Howard</a></h1>
     <?php
     if (
         $_SERVER['REQUEST_URI'] == '/lee0x1.net/' ||

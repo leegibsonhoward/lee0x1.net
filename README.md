@@ -25,6 +25,11 @@ filesystem paths.
 Each article contains a `meta.php` file defining its
 title, description, publication date, and URL slug.
 
-The article loads this metadata for use in its page
-head. Article discovery will use the same metadata
-in a later update.
+The shared `head.php` uses this metadata to generate
+the HTML title and description tags.
+
+Article discovery will use the same metadata in a
+later update.
+
+Stylesheets and navigation links use root-relative
+URLs, so they work regardless of page depth.
