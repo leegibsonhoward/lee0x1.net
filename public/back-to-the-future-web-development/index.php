@@ -1,3 +1,8 @@
+<?php
+// up 2 levels to root directory
+require_once dirname(__DIR__, 2) . '/bootstrap.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,13 +12,13 @@
     $KEYWORDS = "HTML, CSS, PHP";
     $DESC = "changing to php for my personal website.";
     $TITLE = "Back to The Future Web Development";
-    include '../../includes/head.php';
+    require PROJECT_ROOT . '/includes/head.php';
     ?>
 </head>
 
 <body>
-    <?php include '../../includes/header.php'; ?>
-    <?php include '../../includes/footnotes.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/header.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/footnotes.php'; ?>
 
     <main>
         <article>
@@ -25,7 +30,7 @@
         </article>
     </main>
 
-    <?php include '../../includes/footer.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/footer.php'; ?>
 </body>
 
 </html>

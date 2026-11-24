@@ -11,14 +11,11 @@ This site runs on Nginx server on Debian GNU/Linux. :)
 4. no client-side javascript... yet!
 5. no package manager to handle tons of dependencies.
 
-## Steps to publish new article
-1. git pull from remote
-2. copy article-template to public/
-3. change name of article-template to new article name
-4. edit new article index.php
-    - DESC
-    - TITLE
-    - edit time tag date
-    - add article content
-5. commit changes
-6. push to server
+## Project structure
+
+- `bootstrap.php` defines the project root.
+- `includes/` contains shared PHP components.
+- `public/` contains the web-accessible pages and assets.
+
+Shared components use `PROJECT_ROOT` for consistent
+filesystem paths.

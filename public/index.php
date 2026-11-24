@@ -1,3 +1,7 @@
+<?php
+require_once dirname(__DIR__) . '/bootstrap.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,12 +11,12 @@
     $KEYWORDS = "Software Engineering, Development";
     $DESC = "Lee Howard's personal network of development and other cool things.";
     $TITLE = "Lee Howard's Website";
-    include '../includes/head.php';
+    require PROJECT_ROOT . '/includes/head.php';
     ?>
 </head>
 
 <body>
-    <?php include '../includes/header.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/header.php'; ?>
 
     <main>
         <section>
@@ -41,13 +45,13 @@
         <section>
             <h2>📔 Articles</h2>
             <ul class="article-list">
-                <?php include '../includes/articles.php'; ?>
+                <?php require PROJECT_ROOT . '/includes/articles.php'; ?>
             </ul>
         </section>
         <br>
     </main>
 
-    <?php include '../includes/footer.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/footer.php'; ?>
 
 </body>
 
