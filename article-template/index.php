@@ -1,3 +1,9 @@
+<?php
+// up 2 levels to root directory
+require_once dirname(__DIR__, 2) . '/bootstrap.php';
+$meta = require __DIR__ . '/meta.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,15 +11,15 @@
     <?php
     $ROOT = '../';  // DO NOT CHANGE $ROOT
     $KEYWORDS = ""; // article keywords
-    $DESC = "";     // article description    
-    $TITLE = "";    // article title
-    include '../../includes/head.php';
+    $TITLE = $meta['title']; // article title
+    $DESC = $meta['description'];     // article description    
+    require PROJECT_ROOT . '/includes/head.php';
     ?>
 </head>
 
 <body>
-    <?php include '../../includes/header.php'; ?>
-    <?php include '../../includes/footnotes.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/header.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/footnotes.php'; ?>
 
     <main>
 
@@ -29,7 +35,7 @@
 
     </main>
 
-    <?php include '../../includes/footer.php'; ?>
+    <?php require PROJECT_ROOT . '/includes/footer.php'; ?>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 <?php
 // up 2 levels to root directory
 require_once dirname(__DIR__, 2) . '/bootstrap.php';
+$meta = require __DIR__ . '/meta.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,8 +11,8 @@ require_once dirname(__DIR__, 2) . '/bootstrap.php';
     <?php
     $ROOT = '../';
     $KEYWORDS = "HTML, CSS, PHP";
-    $DESC = "changing to php for my personal website.";
-    $TITLE = "Back to The Future Web Development";
+    $TITLE = $meta['title'];
+    $DESC = $meta['description'];
     require PROJECT_ROOT . '/includes/head.php';
     ?>
 </head>

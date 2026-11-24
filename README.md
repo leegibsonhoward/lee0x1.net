@@ -19,3 +19,12 @@ This site runs on Nginx server on Debian GNU/Linux. :)
 
 Shared components use `PROJECT_ROOT` for consistent
 filesystem paths.
+
+### Article metadata
+
+Each article contains a `meta.php` file defining its
+title, description, publication date, and URL slug.
+
+The article loads this metadata for use in its page
+head. Article discovery will use the same metadata
+in a later update.
