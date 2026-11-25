@@ -28,8 +28,9 @@ title, description, publication date, and URL slug.
 The shared `head.php` uses this metadata to generate
 the HTML title and description tags.
 
-Article discovery will use the same metadata in a
-later update.
+The `gen.php` file automatically discovers articles
+by reading their metadata, sorts them by publication
+date, and generates the homepage article listing.
 
 Stylesheets and navigation links use root-relative
 URLs, so they work regardless of page depth.

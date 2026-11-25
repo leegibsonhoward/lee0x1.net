@@ -46,7 +46,7 @@ $isHome = true;
         <section>
             <h2>📔 Articles</h2>
             <ul class="article-list">
-                <?php require PROJECT_ROOT . '/includes/articles.php'; ?>
+                <?php require PROJECT_ROOT . '/includes/gen.php'; ?>
             </ul>
         </section>
         <br>
