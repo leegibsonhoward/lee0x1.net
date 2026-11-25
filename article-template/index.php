@@ -8,27 +8,24 @@ $meta = require __DIR__ . '/meta.php';
 <html lang="en">
 
 <head>
-    <?php   
-    require PROJECT_ROOT . '/includes/head.php';
-    ?>
+    <?php require PROJECT_ROOT . '/includes/head.php'; ?>
 </head>
 
 <body>
     <?php require PROJECT_ROOT . '/includes/header.php'; ?>
-    <?php require PROJECT_ROOT . '/includes/footnotes.php'; ?>
 
     <main>
-
         <article>
             
-            <h2>Article Title</h2>
-            <!-- Month DD, YYYY -->
-            <time>Month DD, YYYY</time>
+            <h2><?= htmlspecialchars($meta['title'], ENT_QUOTES, 'UTF-8') ?></h2>
 
-            <!-- write new article content -->
+            <time datetime="<?= htmlspecialchars($meta['date'], ENT_QUOTES, 'UTF-8') ?>">
+              <?= htmlspecialchars($meta['date'], ENT_QUOTES, 'UTF-8') ?>
+            </time>
+
+            <!-- Write article content here -->
 
         </article>
-
     </main>
 
     <?php require PROJECT_ROOT . '/includes/footer.php'; ?>

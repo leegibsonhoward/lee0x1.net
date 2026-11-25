@@ -45,3 +45,19 @@ on the homepage without depending on specific URLs.
 
 The footer automatically generates references when
 footnotes are present.
+
+### Publishing an article
+
+1. Copy `article-template/` into `public/`.
+2. Rename the directory using the article's URL slug.
+3. Update `meta.php` with the title, description, date, and slug.
+4. Write the article content in `index.php`.
+
+The article template uses shared PHP components for the
+HTML head, header, and footer.
+
+The homepage automatically discovers articles through
+their `meta.php` files and lists them newest-first.
+
+Footnote references are generated automatically when
+an article contains footnotes.
