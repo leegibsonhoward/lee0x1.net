@@ -4,6 +4,7 @@ $meta = [
     'title' => "Lee Howard's Website",
     'description' => "Lee Howard's personal network of development and other cool things."
 ];
+$isHome = true;
 ?>
 
 <!DOCTYPE html>

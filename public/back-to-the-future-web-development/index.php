@@ -15,7 +15,6 @@ $meta = require __DIR__ . '/meta.php';
 
 <body>
     <?php require PROJECT_ROOT . '/includes/header.php'; ?>
-    <?php require PROJECT_ROOT . '/includes/footnotes.php'; ?>
 
     <main>
         <article>

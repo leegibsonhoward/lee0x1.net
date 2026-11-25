@@ -33,3 +33,14 @@ later update.
 
 Stylesheets and navigation links use root-relative
 URLs, so they work regardless of page depth.
+
+### Shared components
+
+The `bootstrap.php` file loads the footnote functions
+used throughout the website.
+
+The header uses `$isHome` to display the welcome message
+on the homepage without depending on specific URLs.
+
+The footer automatically generates references when
+footnotes are present.
