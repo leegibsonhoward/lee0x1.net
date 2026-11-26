@@ -62,6 +62,32 @@ their `meta.php` files and lists them newest-first.
 Footnote references are generated automatically when
 an article contains footnotes.
 
+
+### Footnotes
+
+Articles support automatically numbered footnotes and references.
+
+To add a footnote, call `footnote()` within the article:
+
+```php
+<?php footnote("PHP Documentation", "https://www.php.net/"); ?>
+```
+
+The first argument is the reference text, and the second is
+the URL.
+
+For a footnote without a URL, pass an empty string:
+
+```php
+<?php footnote("Additional explanation.", ""); ?>
+```
+
+Footnotes are numbered automatically in the order they appear.
+
+The shared footer calls `footnote_gen_references()` to generate
+the References section when footnotes exist. Each reference
+includes a link back to its location in the article.
+
 ### Development and deployment
 
 Run the website locally using PHP's built-in server:
