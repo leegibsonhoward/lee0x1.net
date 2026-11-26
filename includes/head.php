@@ -6,4 +6,4 @@
 <meta name="description"
   content="<?= htmlspecialchars($meta['description'], ENT_QUOTES, 'UTF-8') ?>">
 
-<link rel="stylesheet" href="/_assets/css/style.css">
+<link rel="stylesheet" href="/style.css">
