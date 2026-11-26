@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lee0x1.net/sitemap.xml
+Sitemap: https://leegibsonhoward.net/sitemap.xml

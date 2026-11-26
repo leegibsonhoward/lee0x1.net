@@ -52,11 +52,11 @@ $isHome = true;
     <h2>📶 Contact / links</h2>
     <hr>
     <ul>
-      <li>email: <a href="mailto:info@lee0x1.net">info@lee0x1.net</a></li>
-      <li>twitter: <a href="https://twitter.com/lee0x1/" target="_blank" rel="noopener noreferrer">@lee0x1</a></li>
-      <li>github: <a href="https://github.com/lee0x1" target="_blank" rel="noopener noreferrer">@lee0x1</a></li>
+      <li>email: <a href="mailto:info@leegibsonhoward.net">info@leegibsonhoward.net</a></li>
+      <li>twitter: <a href="https://twitter.com/leegibsonhoward/" target="_blank" rel="noopener noreferrer">@leegibsonhoward</a></li>
+      <li>github: <a href="https://github.com/leegibsonhoward" target="_blank" rel="noopener noreferrer">@leegibsonhoward</a></li>
     </ul>
-    <p>I'm usually very quick to respond via <a href="mailto:info@lee0x1.net">email</a>, but if you prefer to use social media, hit me up on <a href="https://twitter.com/lee0x1/" target="_blank" rel="noopener noreferrer">twitter</a>.
+    <p>I'm usually very quick to respond via <a href="mailto:info@leegibsonhoward.net">email</a>, but if you prefer to use social media, hit me up on <a href="https://twitter.com/leegibsonhoward/" target="_blank" rel="noopener noreferrer">twitter</a>.
     </p>
     <p><em>Thank you for visiting.</em></p>
   </section>
