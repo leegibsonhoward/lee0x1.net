@@ -4,5 +4,5 @@
 
 <footer>
     <hr>
-    <p>Copyright © <?php echo date("Y"); ?> Lee Howard. All rights reserved.</p>
+    <p>Copyright © 2023-<?php echo date("Y"); ?> Lee Howard. All rights reserved.</p>
 </footer>
