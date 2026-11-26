@@ -28,5 +28,5 @@ foreach ($articles as $article) {
     $date = htmlspecialchars($article['date'], ENT_QUOTES, 'UTF-8');
     $url = htmlspecialchars($article['url'], ENT_QUOTES, 'UTF-8');
 
-    echo "<li>{$date}: <a href=\"{$url}\">{$title}</a></li>\n";
+    echo "<li>{$date}: <a href=\"{$url}\"><strong>{$title}</strong></a></li>\n";
 }
