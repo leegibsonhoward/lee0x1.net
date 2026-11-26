@@ -61,3 +61,10 @@ their `meta.php` files and lists them newest-first.
 
 Footnote references are generated automatically when
 an article contains footnotes.
+
+### Development and deployment
+
+Run the website locally using PHP's built-in server:
+
+```sh
+php -S localhost:8000 -t public
