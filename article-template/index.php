@@ -19,9 +19,9 @@ $meta = require __DIR__ . '/meta.php';
             
             <h2><?= htmlspecialchars($meta['title'], ENT_QUOTES, 'UTF-8') ?></h2>
 
-            <time datetime="<?= htmlspecialchars($meta['date'], ENT_QUOTES, 'UTF-8') ?>">
-              <?= htmlspecialchars($meta['date'], ENT_QUOTES, 'UTF-8') ?>
-            </time>
+          <time datetime="<?= htmlspecialchars($meta['date'], ENT_QUOTES, 'UTF-8') ?>">
+            <?= date('F j, Y', strtotime($meta['date'])) ?>
+          </time>
 
             <!-- Write article content here -->
 
