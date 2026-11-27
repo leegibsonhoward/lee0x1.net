@@ -49,6 +49,10 @@ a:hover {
   text-underline-offset: 2px;
 }
 
+article a {
+  color: #4870e0;
+}
+
 img {
     max-width: 100%;
     height: auto;
