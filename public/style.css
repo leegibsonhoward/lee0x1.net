@@ -31,7 +31,10 @@ h2 {
     padding-bottom: 0;
 }
 
-ul {
+nav ul,
+.project-list,
+.article-list
+{
   list-style-type: none;
   padding: 0;
 }

@@ -23,7 +23,7 @@ $isHome = true;
     <section>
       <h2>🧪 Projects</h2>
       <hr>
-      <ul>
+      <ul class="project-list">
         <li>
           <p><b>ipad-theos-templates</b>:
             <a href="https://github.com/leegibsonhoward/ipad-theos-templates"><small>(github)</small></a>
