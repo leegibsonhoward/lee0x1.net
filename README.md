@@ -62,6 +62,7 @@ their `meta.php` files and lists them newest-first.
 Footnote references are generated automatically when
 an article contains footnotes.
 
+See [Writing Articles](WRITING.md) for supported HTML elements and examples.
 
 ### Footnotes
 
