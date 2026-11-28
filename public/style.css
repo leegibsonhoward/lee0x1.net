@@ -108,6 +108,27 @@ th, td {
     text-align: left;
 }
 
+table.references {
+    border-spacing: 0;
+}
+
+table.references th,
+table.references td {
+    border: none;
+    background: none;
+    padding: 2px 8px 2px 0;
+}
+
+table.references td:nth-child(2) {
+    text-align: right;
+    white-space: nowrap;
+}
+
+table.references a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 figure.code-block {
     margin: 20px 0;
 }
