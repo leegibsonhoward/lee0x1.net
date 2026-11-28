@@ -92,3 +92,17 @@ blockquote p {
     font-size: 14px;
   }
 }
+
+table {
+    border-spacing: 2px;
+}
+
+th {
+  background-color: #eee9e1;
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 6px 10px;
+    text-align: left;
+}
